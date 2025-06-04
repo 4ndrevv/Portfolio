@@ -24,22 +24,22 @@ const navItems = [
   const bentoSocialLinks = [
     {
       name: "Facebook",
-      href: "https://www.facebook.com/",
+      href: "https://www.facebook.com/nam.hoanghai.927/",
       icon: "/images/fb.svg",
     },
     {
       name: "Instagram",
-      href: "https://www.facebook.com/",
+      href: "https://www.instagram.com/nam_hoang_hai/",
       icon: "/images/insta.svg",
     },
     {
       name: "LinkedIn",
-      href: "https://www.facebook.com/",
+      href: "https://www.linkedin.com/in/hoang-hai-nam-654113210/",
       icon: "/images/linkedin.svg",
     },
     {
       name: "WhatsApp",
-      href: "https://www.facebook.com/",
+      href: "https://wa.me/33664530146",
       icon: "/images/whatsapp.svg",
     },
   ];
