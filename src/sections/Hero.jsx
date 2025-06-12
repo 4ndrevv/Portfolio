@@ -1,5 +1,6 @@
 import React from 'react'
 import GradientSpheres from '../components/GradientSpheres'
+import { HeroExperience } from '../components/HeroExperience'
 
 const Hero = () => {
   return (
@@ -28,6 +29,10 @@ const Hero = () => {
                 </div>
               </div>
           </div>
+        </div>
+
+        <div className="w-full h-full absolute inset-0 ">
+          <HeroExperience />
         </div>
     </section>
   )
