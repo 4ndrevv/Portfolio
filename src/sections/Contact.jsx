@@ -9,7 +9,7 @@ export const Contact = () => {
         <div className="w-full h-full container md:my-40 my-20">
             <TitleHeader 
                 title="CONTACT ME" 
-                number="04"
+                number="05"
                 text="Let collaborate on tailored, sustainable solution."
             />
 

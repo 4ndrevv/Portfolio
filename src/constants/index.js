@@ -8,18 +8,19 @@ const navItems = [
       href: "#about",
     },
     {
-      name: "Projects",
-      href: "#projects",
+      name: "Education & Experience",
+      href: "#education",
     },
     {
-      name: "Testimonials",
-      href: "#testimonials",
+      name: "Projects",
+      href: "#projects",
     },
     {
       name: "Contact",
       href: "#contact",
     },
   ];
+
   
   const bentoSocialLinks = [
     {
@@ -84,6 +85,74 @@ const navItems = [
     {
       name: "aws",
       image: "/images/aws.svg",
+    },
+    {
+      name: "tailwind",
+      image: "/images/tailwind.svg",
+    },
+    {
+      name: "twig",
+      image: "/images/twig.svg",
+    },
+    {
+      name: "bootstrap",
+      image: "/images/bootstrap.svg",
+    },
+    {
+      name: "nodejs",
+      image: "/images/nodejs.svg",
+    },
+    {
+      name: "expressjs",
+      image: "/images/expressjs.svg",
+    },
+    {
+      name: "php",
+      image: "/images/php.svg",
+    },
+    {
+      name: "symfony",
+      image: "/images/symfony.svg",
+    },
+    {
+      name: "api",
+      image: "/images/api.svg",
+    },
+    {
+      name: "graphql",
+      image: "/images/graphql.svg",
+    },
+    {
+      name: "mysql",
+      image: "/images/mysql.svg",
+    },
+    {
+      name: "postgresql",
+      image: "/images/postgresql.svg",
+    },
+    {
+      name: "swift",
+      image: "/images/swift.svg",
+    },
+    {
+      name: "xcode",
+      image: "/images/xcode.svg",
+    },
+    {
+      name: "firebase",
+      image: "/images/firebase.svg",
+    },
+    {
+      name: "git",
+      image: "/images/git.svg",
+    },
+    {
+      name: "docker",
+      image: "/images/docker.svg",
+    },
+    {
+      name: "kubernetes",
+      image: "/images/kubernetes.svg",
     },
   ];
   
@@ -178,6 +247,8 @@ const navItems = [
       icon: "/images/b-whatsapp.svg",
     },
   ];
+
+  
   
   export {
     navItems,

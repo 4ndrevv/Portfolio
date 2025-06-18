@@ -2,6 +2,8 @@ import React from 'react'
 import GradientSpheres from '../components/GradientSpheres'
 import TitleHeader from '../components/TitleHeader'
 
+import CV from '../assets/CV.pdf';
+
 import { Canvas } from "@react-three/fiber";
 import { Progammer } from "../../public/models/Progammer";
 import { OrbitControls } from '@react-three/drei';
@@ -53,11 +55,38 @@ const About = () => {
                 <div id="card" className="grid grid-cols-12 md:grid-rows-12 gap-5">
                     <div className="md:col-span-7 col-span-12 row-span-5">
                         <div className="bg-black-300 rounded-2xl p-7 w-full h-full">
-                            <div className="">
-                                <img src="/images/flower.svg" alt="flower" className="md:w-32 w-16 flower" />
+                            <div className="flex justify-between items-center">
+                                <div className="flex flex-row items-center gap-6">
+                                    <img src="/images/photo-profile.png" alt="flower" className="md:w-32 w-16 flower rounded-full border-4 border-blue-500" />
+                                    <div>
+                                        <h1 className="text-blue-50 md:text-5xl text-3xl animated-text font-semibold">HOANG Hai Nam</h1>
+                                        <p className='text-xl'>13/05/1999</p>
+                                    </div>
+                                </div>
+                                <a
+                                href={CV}
+                                download
+                                className="w-12 h-12 md:w-20 md:h-20 rounded-full bg-sky-800 hover:bg-sky-600 flex items-center justify-center relative group overflow-hidden"
+                                >
+                                {/* CV */}
+                                <p
+                                    className="text-white text-xl font-semibold absolute transition-all duration-300 ease-in-out
+                                            group-hover:translate-y-8 opacity-100 group-hover:opacity-0 z-10"
+                                >
+                                    CV
+                                </p>
+
+                                {/* Icon download */}
+                                <img
+                                    src="/images/download.svg"
+                                    alt="download"
+                                    className="w-6 h-6 md:w-10 md:h-10 absolute transition-all duration-300 ease-in-out
+                                            -translate-y-8 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 z-10"
+                                />
+                                </a>
                             </div>
                             <div className="mt-5">
-                                <h1 className="text-blue-50 md:text-5xl text-3xl animated-text">HOANG Hai Nam</h1>
+                                
                                 <p className="md:text-2xl mt-2 animated-text">
                                 I am a Paris-based Fullstack developer with a focus on web and mobile application development. I have a diverse range of experience, having worked on user interface design, backend systems, DevOps pipelines, and ERP customization. I'm passionate about building end-to-end products using technologies such as Symfony, React, Docker, and Node.js.
                                 </p>

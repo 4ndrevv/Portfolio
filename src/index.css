@@ -29,6 +29,14 @@
   
 }
 
+@utility card-hover {
+  @apply transition-transform duration-300 hover:scale-[1.02] hover:shadow-lg;
+}
+
+@utility bg-card {
+  background-color: theme('colors.gray.700'); /* màu xám đậm */
+}
+
 
 @layer utilities {
   .flex-center {
