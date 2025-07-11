@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  react-vite-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"       # map port 80 trong container ra port 8080 máy host
+    restart: always

@@ -1,0 +1,25 @@
+# Thư mục node_modules không cần copy vì sẽ cài lại trong Docker
+node_modules
+
+# Thư mục build (dist) không cần copy vì sẽ được tạo lại khi build
+dist
+
+# Thư mục và file Git không cần thiết trong image
+.git
+.gitignore
+
+# Cấu hình IDE, editor
+.vscode
+.idea
+
+# File môi trường có thể chứa thông tin nhạy cảm
+.env
+
+# File log và file tạm
+npm-debug.log
+yarn-error.log
+*.log
+.DS_Store
+
+# Thư mục test coverage
+coverage
