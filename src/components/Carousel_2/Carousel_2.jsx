@@ -52,7 +52,7 @@ const ListItem = ({ item }) => {
         <motion.h1 variants={textVariants}>{translatedTitle}</motion.h1>
         <motion.p variants={textVariants}>{translatedDesc}</motion.p>
         <motion.a variants={textVariants} href={item.link}>
-          <button className="rounded-full cursor-pointer bg-blue-50 hover:bg-pink-100 active:scale-90 transition-all flex-center text-white">{t('button_project_view')}</button>
+          <button disabled className="rounded-full cursor-pointer bg-blue-50 hover:bg-pink-100 active:scale-90 transition-all flex-center text-white">{t('button_project_view')}</button>
         </motion.a>
       </motion.div>
     </div>
