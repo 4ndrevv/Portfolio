@@ -7,6 +7,8 @@ import { Contact } from './sections/Contact.jsx'
 import Footer from './components/Footer.jsx'
 import NavBar from './components/NavBar.jsx'
 import { Education } from './sections/Education.jsx'
+import { Certificate } from './sections/Certificate.jsx'
+import './constants/i18n.js';
 
 const App = () => {
   return (
@@ -17,6 +19,7 @@ const App = () => {
       <Education />
       <TechStack />
       <Project />
+      <Certificate />
       <Contact />
       <Footer />
     </div>

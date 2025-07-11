@@ -1,22 +1,22 @@
 const navItems = [
     {
-      name: "Home",
+      name: "home",
       href: "#home",
     },
     {
-      name: "About",
+      name: "about",
       href: "#about",
     },
     {
-      name: "Education & Experience",
+      name: "education&experience",
       href: "#education",
     },
     {
-      name: "Projects",
+      name: "projects",
       href: "#projects",
     },
     {
-      name: "Contact",
+      name: "contact",
       href: "#contact",
     },
   ];
@@ -159,38 +159,36 @@ const navItems = [
   const slides = [
     {
       id: 1,
-      title: "Sofi",
-      img: "/images/p1.png",
+      title: "docker",
+      img: "/images/certificate/docker.png",
+      mark: "Udemy"
     },
     {
       id: 2,
-      title: "Jasmina",
-      img: "/images/p2.png",
+      title: "epsi",
+      img: "/images/certificate/epsi.jpeg",
+      mark: "EPSI"
     },
     {
       id: 3,
-      title: "d.tampe",
-      img: "/images/p3.png",
+      title: "hep",
+      img: "/images/certificate/hep.png",
+      mark: "HEP"
+    },
+  ];
+
+  const slides_2 = [
+    {
+      id: 1,
+      key: "martin",
+      img: "/images/project/martin.png",
+      link: "/",
     },
     {
-      id: 4,
-      title: "Blimp.gr",
-      img: "/images/p4.png",
-    },
-    {
-      id: 5,
-      title: "Hawk Style Design",
-      img: "/images/p5.png",
-    },
-    {
-      id: 6,
-      title: "Lewis",
-      img: "/images/p6.png",
-    },
-    {
-      id: 7,
-      title: "Sofi",
-      img: "/images/p1.png",
+      id: 2,
+      key: "react_question",
+      img: "/images/project/react_question.png",
+      link: "/",
     },
   ];
   
@@ -255,6 +253,7 @@ const navItems = [
     bentoSocialLinks,
     iconsList,
     slides,
+    slides_2,
     testimonials,
     footerIconsList,
   };

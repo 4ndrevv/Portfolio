@@ -1,0 +1,158 @@
+{
+    "nav": {
+      "home": "Accueil",
+      "about": "À propos",
+      "education&experience": "Éducation & Expérience",
+      "projects": "Projets",
+      "contact": "Contact"
+    },
+
+    "welcome": "👋 Hé, je suis là",
+    "creative": "CRÉATIVE",
+    "developer": "DÉVELOPPEUR",
+    "explore": "Explorer",
+
+    "aboutme": "À PROPOS",
+    "sub_aboutme": "Créateur passionné, apprenant à vie",
+    "description_info": "Développeur Fullstack junior, capable d’intervenir à la fois sur le <strong>Frontend</strong> et le <strong>Backend</strong>, j’ai acquis une première expérience professionnelle dans le développement d’applications <strong>web</strong> et <strong>mobiles</strong>, en environnement <strong>agile</strong>.<br /><br />J’ai contribué à des projets variés : applications web en <strong>Symfony/PHP</strong>, développement mobile iOS en <strong>Swift</strong>, ainsi que personnalisation d’ERP <strong>Odoo</strong> en <strong>Python</strong>. J’ai également mis en place des pipelines <strong>CI/CD</strong> avec <strong>Jenkins</strong> pour automatiser le déploiement.<br /><br />À l’aise avec les outils de collaboration (<strong>Trello</strong>, <strong>Git</strong>), je suis <strong>motivé</strong>, <strong>curieux</strong> et désireux de monter en compétence sur l’ensemble de la stack. Je recherche une opportunité dans une <strong>équipe dynamique</strong>, où je pourrai évoluer en tant que <strong>développeur fullstack</strong>, quel que soit le secteur d’activité.<br /><br />Disponible en <strong>présentiel</strong>, <strong>hybride</strong> ou <strong>remote</strong>.",
+    "aboutme_langage": "Langue",
+    "aboutme_langage_vi": "Vietnamien",
+    "aboutme_langage_en": "Anglais",
+    "aboutme_langage_fr": "Français",
+    "aboutme_contact": {
+      "email": "Email",
+      "telephone": "Téléphone",
+      "address": "Adresse",
+      "dob": "Date de naissance",
+      "driver_license": {
+        "title": "Permis de conduire",
+        "desc": "B véhicule"
+      }
+    },
+    "aboutme_slogan": {
+      "tag1": "SOIS TOI-MÊME",
+      "tag2": "SOIS DIFFÉRENT",
+      "tag3": "CONSTRUIS AUTREMENT",
+      "tag4": "INNOVE AVEC AUDACE",
+      "tag5": "CONSTRUIS SANS LIMITES"
+    },
+    
+    "education_experience": "ÉDUCATION ET EXPÉRIENCE",
+    "sub_education_experience": "Façonné par des années d'apprentissage et de formation",
+    "timeline": {
+      "martinsellier":{
+        "title": "Septembre 2022 - Septembre 2024",
+        "cardTitle": "Group Martin Sellier (Rouvignies)",
+        "cardSubtitle": "Alternance – Développeur Fullstack Web et Mobile",
+        "content_title_1": "Martin NFC - Développement d’application Web",
+        "content_1": "<0>Développement avec <1>PHP/Symfony</1> (Twig, Doctrine ORM) pour enregistrer les informations des animaux via colliers NFC.</0><0>Interfaces responsives respectant les maquettes Figma avec <1>HTML, CSS, JS, Bootstrap</1>.</0><0>Création et intégration d’<1>API RESTful</1> et gestion de données via <1>MySQL</1>.</0><0>Utilisation de <1>Docker</1> pour la conteneurisation et gestion des environnements.</0><0>Respect des bonnes pratiques (<2>SOLID</2>, Clean Code) et versionnage avec <1>GitFlow</1>.</0><0>Rédaction de la documentation technique et des spécifications fonctionnelles.</0>",
+        "content_title_2":"Martin Coach - Développement d’application iOS",
+        "content_2": "<0>Développement d'une app <1>iOS avec Swift et Xcode</1> pour suivre la santé des animaux.</0><0>Développement backend et <1>API RESTful</1> avec <1>Node.js</1> pour performance optimale.</0>"
+      },
+      "epsi": {
+        "title": "Septembre 2022 - Septembre 2024",
+        "cardTitle": "L'école d'ingénierie informatique EPSI - Lille",
+        "cardSubtitle": "Expert en informatique et systèmes d'information - Master 2",
+        "content_title": "Master 2 - Expert en Informatique et Systèmes d'Information",
+        "content_1": "Formation centrée sur le pilotage stratégique des systèmes d'information, la data science et la gestion de projets informatiques.",
+        "content_2": "<0><1>Big Data & Business Intelligence :</1> statistiques descriptives, modélisation avancée, data science, visualisation et gouvernance des données.</0><0><1>Stratégie SI :</1> veille technologique, analyse des besoins, sécurité informatique et amélioration continue.</0><0><1>Gestion de projets agiles :</1> management d’équipes multiculturelles à distance et conduite de projets SI.</0><0><1>Développement professionnel & innovation :</1> leadership, coopération et communication en environnement professionnel.</0>"
+      },
+      "sirius_info": {
+        "title": "Avril 2022 - Juin 2022",
+        "cardTitle": "Société Sirius-Info (Fenain)",
+        "cardSubtitle": "Stagiaire - Développeur Odoo ERP",
+        "content_title": "Développement ERP – Odoo",
+        "content": "<0><1>Analyse des besoins métiers et développement de fonctionnalités personnalisées</1> dans <1>Odoo ERP</1> avec <1>Python</1>.</0><0>Personnalisation des modules et automatisation des processus métier.</0><0>Participation aux <1>sprints Agile (Scrum/Kanban)</1> : planification, revues de code et amélioration continue.</0><0>Collaboration étroite avec les équipes fonctionnelles et techniques pour garantir la cohérence et la qualité des solutions livrées.</0>" 
+      },
+      "insa": {
+        "title": "Septembre 2021 – Juillet 2022",
+        "cardTitle": "INSA Hauts-de-France",
+        "cardSubtitle": "Licence Sciences, Technologies, Santé mention Informatique – BAC +3",
+        "content_title": "Licence Informatique – INSA Hauts-de-France",
+        "content": "<0>Formation générale couvrant les algorithmes, la programmation (<1>Java</1>, <1>C++</1>), l’architecture des ordinateurs, les systèmes d’exploitation, les réseaux et les bases de données.</0><0>Développement de compétences transversales : gestion de projet, communication, travail en équipe et autonomie.</0><0>Expérience pratique grâce à de nombreuses séances de travaux pratiques, projets techniques et professionnels.</0><0>Réalisation de stages en entreprise favorisant l’expérience concrète et la découverte du milieu professionnel.</0><0>Préparation à la poursuite d’études en Master ou à une insertion rapide dans le secteur informatique.</0>"
+      }      
+    },
+    "categories": {
+      "all": "Tous",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "database": "BDD",
+      "mobile": "Mobile",
+      "tools": "Outils",
+      "infra": "Infra",
+      "CI/CD": "CI/CD"
+    },
+
+    "techstack": "Pile technologique",
+    "sub_techstack": "Mes outils de prédilection pour créer des solutions",
+
+    "project": "PROJETS",
+    "sub_project": "Mes projets réalisés avec mes outils de prédilection",
+    "button_project_view": "Voir Projet",
+    "project_content": {
+      "martin": {
+        "title": "Martin NFC",
+        "desc": "Martin NFC est une application web et mobile permettant aux propriétaires d’animaux d’enregistrer des informations essentielles sur leur animal grâce à une puce NFC. Lorsqu’un appareil compatible NFC scanne le tag, une page web dédiée s’ouvre et affiche le profil de l’animal : nom, coordonnées du propriétaire, adresse et informations médicales. Ce système remplace les médaillons traditionnels par une solution connectée et intelligente."
+      },
+      "react_question": {
+        "title": "Application de Quiz Interactive",
+        "desc": "Cette application développée en React permet aux utilisateurs de répondre à des quiz à choix multiples sur divers sujets. Une fois le quiz terminé, l'application calcule automatiquement le score et affiche les résultats en temps réel. C’est un outil dynamique et convivial pour apprendre, s’évaluer et suivre ses progrès."
+      }
+    },
+
+    "certificate": "CERTIFICATS",
+    "sub_certificate": "Mes attestations et certifications professionnelles",
+
+    
+    "certificate_content": {
+        "docker": {
+          "title": "Docker : Des Bases à l'Avancé",
+          "modal": {
+            "title": "Docker : Des Bases à l'Avancé",
+            "img": "/images/certificate/modal/docker.jpg",
+            "content": "<div style=\"font-family: Arial, sans-serif; color: #f9fafb; background-color: #1f2937; padding: 20px; border-radius: 8px;\"><h2 style=\"font-weight: 700; font-size: 1.75rem; margin-bottom: 12px; color: #e0e7ff;\">Certificat de Maîtrise en Docker et Technologies Associées</h2><p style=\"font-size: 1rem; margin-bottom: 16px;\"><strong>Délivré à :</strong> HOANG Hai Nam<br/><strong>Date de délivrance :</strong> 15 avril 2025<br/><strong>Délivré par :</strong> Udemy</p><h3 style=\"font-weight: 700; font-size: 1.25rem; margin-top: 24px; margin-bottom: 8px; color: #c7d2fe;\">Compétences</h3><ul style=\"list-style-type: disc; padding-left: 1.75rem; margin-bottom: 20px; font-size: 1rem; line-height: 1.6;\"><li>Comprendre en profondeur et appliquer avec maîtrise les concepts clés tels que container, image, volume, réseau, compose, et plus encore.</li><li>Gérer de manière autonome 90–95% des tâches techniques liées à Docker dans des environnements projets réels.</li><li>Construire, gérer et optimiser des environnements conteneurisés pour des applications utilisant des technologies populaires telles que Node.js, Java Spring Boot, Python Django, Nginx, MySQL, et Redis.</li><li>Intégrer Docker dans les workflows DevOps et CI/CD.</li><li>Être prêt à apprendre et à implémenter des solutions avancées telles que Kubernetes et des infrastructures conteneurisées à grande échelle.</li></ul><p style=\"font-weight: 700; font-size: 1rem; color: #e0e7ff;\">Statut : ✅ Compétence Acquise</p></div>"
+          }
+        },
+        "epsi": {
+          "title": "Expert en Systèmes d'Information et IT",
+          "modal": {
+            "title": "Expert en Systèmes d'Information et IT",
+            "img": "/images/certificate/modal/epsi.jpg",
+            "content": "<div style=\"font-family: Arial, sans-serif; color: #f9fafb; background-color: #1f2937; padding: 20px; border-radius: 8px;\"><h2 style=\"font-weight: 700; font-size: 1.75rem; margin-bottom: 12px; color: #e0e7ff;\">Expert en Systèmes d'Information & IT</h2><p style=\"font-size: 1rem; margin-bottom: 16px;\"><strong>Délivré à :</strong> HOANG Hai Nam<br/><strong>Date de délivrance :</strong> septembre 2024</p><h3 style=\"font-weight: 700; font-size: 1.25rem; margin-top: 24px; margin-bottom: 8px; color: #c7d2fe;\">Missions Principales</h3><p style=\"font-size: 1rem; margin-bottom: 16px;\">Le programme de formation se concentre sur les domaines d'expertise suivants :</p><ul style=\"list-style-type: disc; padding-left: 1.75rem; margin-bottom: 20px; font-size: 1rem; line-height: 1.6;\"><li style=\"margin-bottom: 0.5rem;\">Analyser et définir la stratégie d'un système d'information.</li><li style=\"margin-bottom: 0.5rem;\">Gérer des projets IT avec agilité en collaboration avec les parties prenantes.</li><li style=\"margin-bottom: 0.5rem;\">Superviser la prise de décision IT au sein d'un système d'information (Big Data &amp; Business Intelligence).</li><li style=\"margin-bottom: 0.5rem;\">Concevoir et développer des solutions applicatives spécifiques métier (mobile, systèmes embarqués et ERP).</li><li>Concevoir et sécuriser des infrastructures virtualisées et cloud.</li></ul><p style=\"font-weight: 700; font-size: 1rem; color: #e0e7ff;\">Statut : ✅ Compétence Acquise</p></div>"
+          }
+        },
+        "hep": {
+          "title": "HEP 5 - Leadership",
+          "modal": {
+            "title": "HEP 5 - Leadership",
+            "img": "/images/certificate/modal/hep.png",
+            "content": "<div style=\"font-family: Arial, sans-serif; color: #f9fafb; background-color: #1f2937; padding: 20px; border-radius: 8px;\"><h2 style=\"font-weight: 700; font-size: 1.75rem; margin-bottom: 12px; color: #e0e7ff;\">HEP Micro-certification – Leadership & Performance Collective</h2><p style=\"font-size: 1rem; margin-bottom: 16px;\"><strong>Délivré à :</strong> Hai Nam HOANG<br/><strong>Date de délivrance :</strong> 11 mars 2025</p><h3 style=\"font-weight: 700; font-size: 1.25rem; margin-top: 24px; margin-bottom: 8px; color: #c7d2fe;\">Résultats</h3><p style=\"margin-bottom: 20px; font-size: 1rem; line-height: 1.5;\">A démontré la capacité à exercer un leadership qui favorise le développement collectif et contribue à la performance organisationnelle.</p><h3 style=\"font-weight: 700; font-size: 1.25rem; margin-top: 24px; margin-bottom: 8px; color: #c7d2fe;\">Compétences & Aptitudes</h3><ul style=\"list-style-type: disc; padding-left: 1.75rem; margin-bottom: 20px; font-size: 1rem; line-height: 1.6;\"><li>Choisir un style de leadership approprié selon les caractéristiques individuelles, les systèmes de valeurs, et les contextes situationnels.</li><li>Construire des projets collectifs en combinant les compétences humaines personnelles avec celles du groupe.</li><li>Partager efficacement son expertise pour soutenir le succès collectif.</li></ul><h3 style=\"font-weight: 700; font-size: 1.25rem; margin-top: 24px; margin-bottom: 8px; color: #c7d2fe;\">Répartition de l'Évaluation</h3><ul style=\"list-style-type: disc; padding-left: 1.75rem; margin-bottom: 20px; font-size: 1rem; line-height: 1.6;\"><li><strong>15% – Spirale Dynamique :</strong> Participation aux ateliers en présentiel, qualité du travail produit, et capacité à adapter le style de leadership selon les personnes et les contextes.</li><li><strong>40% – Projet Collectif :</strong> Qualité du pitch en direct, pertinence du contenu présenté, démonstration du fonctionnement autonome de l'équipe, et intégration réussie des compétences HEP.</li><li><strong>30% – Capacité à Partager les Connaissances :</strong> Participation aux ateliers, profondeur de l'auto-analyse sur la stratégie de réussite personnelle (notamment en termes de transfert de connaissances), et analyse de la stratégie de réussite d'un autre individu.</li><li><strong>15% – Présence :</strong> Complétion de 100% du contenu e-learning du module.</li></ul><p style=\"font-style: italic; font-size: 0.9rem; color: #a5b4fc; margin-bottom: 20px;\">Note : Toutes les évaluations sont réalisées pendant l'atelier en présentiel. Aucun travail supplémentaire n'est requis en dehors de la formation.</p><p style=\"font-weight: 700; font-size: 1rem; color: #e0e7ff;\">Statut : ✅ Compétence Acquise</p></div>"
+          }
+        }
+      },
+    "certificate_content_button": "Fermer",
+    
+    
+
+    "contact": "CONTACTEZ-MOI",
+    "sub_contact": "Collaborons sur une solution sur mesure et durable",
+    "contact_name": "Nom",
+    "contact_email": "Adresse Email",
+    "contact_subject": "Sujet",
+    "contact_subject_placeholder": "Proposition de travail pour [Nom du projet/tâche]",
+    "contact_message": "Message",
+    "contact_message_placeholder": "Écrivez ici",
+    "contact_button": "Envoyer le message",
+    "contact_button_sending": "Envoi...",
+    "contact_warning": {
+      "name": "Le nom est requis",
+      "email_1": "E-mail invalide",
+      "email_2": "L'adresse e-mail est requise",
+      "subject": "Le sujet est requis",
+      "message": "Le message est requis"
+    },
+
+    "footer": "2025 © Tous droits réservés.",
+    
+    "description": "Ceci est un site multilingue."
+  }

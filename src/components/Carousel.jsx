@@ -3,10 +3,19 @@ import { slides } from '../constants';
 import { div } from "three/tsl";
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
+import { useRef } from 'react';
+import Modal from './Modal';
+
+import { useTranslation } from 'react-i18next';
 
 const Carousel = () => {
 
+    const { t } = useTranslation();
+
     const [currentSlide, setCurrentSlide] = useState(1);
+    const [selectedSlide, setSelectedSlide] = useState(null);
+
+    const modal = useRef();
 
     const prevSlide = () => {
         setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
@@ -29,7 +38,35 @@ const Carousel = () => {
         );
     }, [currentSlide] )
 
+    function handleOpenModal(slideTitle) {
+        setSelectedSlide(slideTitle.toLowerCase());
+        modal.current.open();
+    }
+
   return (
+    <>
+    <Modal ref={modal} buttonCaption={t('certificate_content_button')}>
+        {selectedSlide && (
+            <div className="flex flex-col items-center">
+            <img
+                src={t(`certificate_content.${selectedSlide}.modal.img`)}
+                alt={t(`certificate_content.${selectedSlide}.title`)}
+                className="w-full max-h-[40vh] object-contain rounded-md mb-4"
+            />
+            {/*
+            <h2 className="text-2xl font-bold text-stone-800 mb-4 text-center">
+                {t(`certificate_content.${selectedSlide}.modal.title`)}
+            </h2>
+            */}
+            <div
+                className="text-white text-justify space-y-3 max-h-[50vh] overflow-y-auto pr-2"
+                dangerouslySetInnerHTML={{
+                __html: t(`certificate_content.${selectedSlide}.modal.content`)
+                }}
+            />
+            </div>
+        )}
+    </Modal>
     <div className='relative'>
         <div className="w-full relative lg:h-[60vh] md:h-[40vh] h-[60vh] ">
             <div className="absolute w-full -left-[43vw] top-0">
@@ -43,11 +80,14 @@ const Carousel = () => {
                                     <div className="flex h-full justify-between items-center">
                                         <div className="flex-center gap-2">
                                             <p className="">{index+1}</p>
-                                            <p className="">{slide.title}</p>
+                                            <p className="">{t(`certificate_content.${slide.title.toLowerCase()}.title`)}</p>
                                         </div>
-                                        <div className="flex-center gap-2">
-                                            <p className="">Preview Project</p>
-                                            <img className="md:size-10 size-7" src="/images/arrowupright.svg" alt="arrowup" />
+                                        <div 
+                                        onClick={() => handleOpenModal(slide.title.toLowerCase())} 
+                                        className="flex-center gap-2 cursor-pointer bg-blue-50 text-white px-2 py-1 rounded-md transition-colors duration-300 hover:bg-pink-100 select-none"
+                                        >
+                                        <p className="">{slide.mark}</p>
+                                        <img className="md:size-10 size-7" src="/images/arrowupright.svg" alt="arrowup" />
                                         </div>
                                     </div>
                                 </div>
@@ -67,6 +107,8 @@ const Carousel = () => {
             </div>
         </div>
     </div>
+    </>
+    
   );
 };
 

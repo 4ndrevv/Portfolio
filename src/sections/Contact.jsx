@@ -2,15 +2,17 @@ import React from 'react'
 import TitleHeader from '../components/TitleHeader'
 import { ContactForm } from '../components/ContactForm'
 import { ContactExperience } from '../components/ContactExperience'
+import { useTranslation } from 'react-i18next'
 
 export const Contact = () => {
+    const { t } = useTranslation();
   return (
     <section id="contact" className="flex-center relative md:p-0 px-5">
         <div className="w-full h-full container md:my-40 my-20">
             <TitleHeader 
-                title="CONTACT ME" 
-                number="05"
-                text="Let collaborate on tailored, sustainable solution."
+                title={t('contact')}
+                number="06"
+                text={t('sub_contact')}
             />
 
             <div className="mt-20">

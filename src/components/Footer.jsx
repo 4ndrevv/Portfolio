@@ -1,11 +1,14 @@
 import { footerIconsList } from "../constants";
+import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
+
+  const { t } = useTranslation();
   return (
     <div className="w-full flex-center flex-col md:gap-10 gap-7 bg-black-300 py-10">
       <div>
         <img
-          src="/images/logo.png"
+          src="/images/logo_nam.png"
           alt="logo"
           className="w-7 h-7 object-cover object-center"
         />
@@ -25,7 +28,7 @@ const Footer = () => {
         ))}
       </div>
       <p className="font-regular md:text-lg text-sm">
-        2025 © All rights reserved.
+        {t('footer')}
       </p>
     </div>
   );

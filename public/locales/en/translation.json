@@ -1,0 +1,158 @@
+{
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "education&experience": "Education & Experience",
+      "projects": "Projects",
+      "contact": "Contact"
+    },
+
+    "welcome": "👋 Hey, I'am here",
+    "creative": "CREATIVE",
+    "developer": "DEVELOPER",
+    "explore": "Explore",
+
+    "aboutme": "About Me",
+    "sub_aboutme": "Passionate Creator, LifeLong Learner",
+    "description_info": "I am a <strong>junior Fullstack Developer</strong> with the ability to work on both <strong>Frontend</strong> and <strong>Backend</strong> tasks. I have gained hands-on experience developing <strong>web</strong> and <strong>mobile applications</strong> in <strong>Agile environments</strong>.<br /><br />I have contributed to diverse projects, including <strong>Symfony/PHP</strong> web apps, iOS development using <strong>Swift</strong>, and customizing <strong>Odoo ERP</strong> with <strong>Python</strong>. I’ve also worked with <strong>CI/CD pipelines</strong> using <strong>Jenkins</strong> for deployment automation.<br /><br />Familiar with team collaboration tools like <strong>Trello</strong> and <strong>Git</strong>, I’m a <strong>curious</strong>, <strong>motivated</strong>, and <strong>versatile</strong> developer eager to grow across the full stack. I'm open to opportunities in any sector, ready to join a <strong>dynamic team</strong> and take on <strong>new challenges</strong>.<br /><br />Flexible for <strong>remote</strong>, <strong>hybrid</strong>, or <strong>in-office</strong> work.",
+    "aboutme_langage": "Langage",
+    "aboutme_langage_vi": "Vietnamese",
+    "aboutme_langage_en": "English",
+    "aboutme_langage_fr": "French",
+    "aboutme_contact": {
+      "email": "Email",
+      "telephone": "Telephone",
+      "address": "Address",
+      "dob": "Date of birth",
+      "driver_license": {
+        "title": "Driver's license",
+        "desc": "Category B"
+      }
+    },
+    "aboutme_slogan": {
+      "tag1": "BE YOURSELF" ,
+      "tag2": "BE DIFFERENT",
+      "tag3": "BUILD DIFFERENT",
+      "tag4": "INNOVATE LOUDLY",
+      "tag5": "BUILD WITHOUT BOUNDARIES"
+    },
+
+
+    "education_experience": "EDUCATION & EXPERIENCE",
+    "sub_education_experience": "Shaped by years of learning and training",
+    "timeline": {
+        "martinsellier": {
+          "title": "September 2022 - September 2024",
+          "cardTitle": "Martin Sellier Group (Rouvignies)",
+          "cardSubtitle": "Apprenticeship – Fullstack Web and Mobile Developer",
+          "content_title_1": "Martin NFC - Web Application Development",
+          "content_1": "<0>Development using <1>PHP/Symfony</1> (Twig, Doctrine ORM) to record animal information via NFC collars.</0><0>Responsive interfaces based on Figma mockups with <1>HTML, CSS, JS, Bootstrap</1>.</0><0>Creation and integration of <1>RESTful APIs</1> and data management via <1>MySQL</1>.</0><0>Using <1>Docker</1> for containerization and environment management.</0><0>Following best practices (<2>SOLID</2>, Clean Code) and version control with <1>GitFlow</1>.</0><0>Writing technical documentation and functional specifications.</0>",
+          "content_title_2": "Martin Coach - iOS Application Development",
+          "content_2": "<0>Development of an <1>iOS app with Swift and Xcode</1> to monitor animal health.</0><0>Backend development and <1>RESTful API</1> with <1>Node.js</1> for optimal performance.</0>"
+        },
+        "epsi": {
+          "title": "September 2022 - September 2024",
+          "cardTitle": "EPSI School of Computer Engineering - Lille",
+          "cardSubtitle": "Expert in IT and Information Systems - Master’s Degree",
+          "content_title": "Master’s Degree - Expert in IT and Information Systems",
+          "content_1": "Training focused on strategic IT systems management, data science, and IT project management.",
+          "content_2": "<0><1>Big Data & Business Intelligence:</1> descriptive statistics, advanced modeling, data science, visualization, and data governance.</0><0><1>Information Systems Strategy:</1> technology watch, needs analysis, cybersecurity, and continuous improvement.</0><0><1>Agile Project Management:</1> management of remote multicultural teams and IT project execution.</0><0><1>Professional Development & Innovation:</1> leadership, collaboration, and communication in a professional environment.</0>"
+        },
+        "sirius_info": {
+          "title": "April 2022 - June 2022",
+          "cardTitle": "Sirius-Info Company (Fenain)",
+          "cardSubtitle": "Intern – Odoo ERP Developer",
+          "content_title": "ERP Development – Odoo",
+          "content": "<0><1>Business needs analysis and development of custom features</1> in <1>Odoo ERP</1> using <1>Python</1>.</0><0>Module customization and business process automation.</0><0>Participation in <1>Agile sprints (Scrum/Kanban)</1>: planning, code reviews, and continuous improvement.</0><0>Close collaboration with functional and technical teams to ensure consistency and quality of delivered solutions.</0>"
+        },
+        "insa": {
+          "title": "September 2021 – July 2022",
+          "cardTitle": "INSA Hauts-de-France",
+          "cardSubtitle": "Bachelor's Degree in Computer Science – BAC +3",
+          "content_title": "Bachelor’s in Computer Science – INSA Hauts-de-France",
+          "content": "<0>Comprehensive curriculum covering algorithms, programming (<1>Java</1>, <1>C++</1>), computer architecture, operating systems, networks, and databases.</0><0>Development of cross-functional skills: project management, communication, teamwork, and autonomy.</0><0>Applied learning through numerous labs, technical projects, and real-world assignments.</0><0>Company internships fostering hands-on experience and exposure to the professional world.</0><0>Preparation for advanced studies (Master's degree) or direct entry into the tech industry.</0>"
+        }        
+    },
+
+    "categories": {
+      "all": "All",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "database": "Database",
+      "mobile": "Mobile",
+      "tools": "Tools",
+      "infra": "Infra",
+      "CI/CD": "CI/CD"
+    },
+
+    "techstack": "TECH STACK",
+    "sub_techstack": "My Go-To Tools for Crafting Solutions",
+    
+    "project": "PROJECTS",
+    "sub_project": "My Go-To Tools for Crafting Solutions",
+    "button_project_view": "View Project",
+    "project_content": {
+      "martin": {
+        "title": "Martin NFC",
+        "desc": "Martin NFC is a web and mobile application that allows pet owners to store essential information about their pets using an NFC tag. When the tag is scanned with an NFC-compatible device, it opens a dedicated web page displaying the pet’s profile, including name, owner contact info, address, and medical details. The system replaces traditional pet ID tags with a smarter, connected solution."
+      },
+      "react_question": {
+        "title": "Interactive Quiz App",
+        "desc": "This React-based application allows users to take multiple-choice quizzes on various topics. After completing a quiz, the app automatically calculates and displays the user's score, providing instant feedback. It’s a dynamic and user-friendly way to learn, test knowledge, and track progress."
+      }
+    },
+
+    "certificate": "CERTIFICATES",
+    "sub_certificate": "My Professional Attestations and Certifications",
+
+    "certificate_content": {
+      "docker": {
+        "title": "Docker: From Basics to Advanced",
+        "modal": {
+          "title": "Docker: From Basics to Advanced",
+          "img": "/images/certificate/modal/docker.jpg",
+          "content": "<div style=\"font-family: Arial, sans-serif; color: #f9fafb; background-color: #1f2937; padding: 20px; border-radius: 8px;\"><h2 style=\"font-weight: 700; font-size: 1.75rem; margin-bottom: 12px; color: #e0e7ff;\">Certificate of Proficiency in Docker and Related Technologies</h2><p style=\"font-size: 1rem; margin-bottom: 16px;\"><strong>Awarded to:</strong> HOANG Hai Nam<br/><strong>Date of issue:</strong> April 15, 2025<br/><strong>Issued by:</strong> Udemy</p><h3 style=\"font-weight: 700; font-size: 1.25rem; margin-top: 24px; margin-bottom: 8px; color: #c7d2fe;\">Proficiencies</h3><ul style=\"list-style-type: disc; padding-left: 1.75rem; margin-bottom: 20px; font-size: 1rem; line-height: 1.6;\"><li>Deeply understand and proficiently apply core concepts such as container, image, volume, network, compose, and more.</li><li>Independently handle 90–95% of technical tasks related to Docker in real-world project environments.</li><li>Build, manage, and optimize containerized environments for applications using popular technologies such as Node.js, Java Spring Boot, Python Django, Nginx, MySQL, and Redis.</li><li>Integrate Docker into the DevOps and CI/CD workflow.</li><li>Be ready to learn and implement advanced solutions such as Kubernetes and large-scale containerized infrastructure.</li></ul><p style=\"font-weight: 700; font-size: 1rem; color: #e0e7ff;\">Status: ✅ Competency Acquired</p></div>"
+
+        }
+      },
+      "epsi": {
+        "title": "Expert in IT & information systems",
+        "modal": {
+          "title": "Expert in IT & information systems",
+          "img": "/images/certificate/modal/epsi.jpg",
+          "content": "<div style=\"font-family: Arial, sans-serif; color: #f9fafb; background-color: #1f2937; padding: 20px; border-radius: 8px;\"><h2 style=\"font-weight: 700; font-size: 1.75rem; margin-bottom: 12px; color: #e0e7ff;\">Expert in IT & Information Systems</h2><p style=\"font-size: 1rem; margin-bottom: 16px;\"><strong>Awarded to:</strong> HOANG Hai Nam<br/><strong>Date of issue:</strong> September 2024</p><h3 style=\"font-weight: 700; font-size: 1.25rem; margin-top: 24px; margin-bottom: 8px; color: #c7d2fe;\">Main Missions</h3><p style=\"font-size: 1rem; margin-bottom: 16px;\">The training program focuses on the following areas of expertise:</p><ul style=\"list-style-type: disc; padding-left: 1.75rem; margin-bottom: 20px; font-size: 1rem; line-height: 1.6;\"><li style=\"margin-bottom: 0.5rem;\">Analyze and define the strategy of an information system.</li><li style=\"margin-bottom: 0.5rem;\">Manage IT projects with agility in collaboration with stakeholders.</li><li style=\"margin-bottom: 0.5rem;\">Oversee decision-making IT within an information system (Big Data &amp; Business Intelligence).</li><li style=\"margin-bottom: 0.5rem;\">Design and develop business-specific application solutions (mobile, embedded systems, and ERP).</li><li>Design and secure virtualized and cloud infrastructure solutions.</li></ul><p style=\"font-weight: 700; font-size: 1rem; color: #e0e7ff;\">Status: ✅ Competency Acquired</p></div>"
+        }
+      },
+      "hep": {
+        "title": "HEP 5 - Leadership",
+        "modal": {
+          "title": "HEP 5 - Leadership",
+          "img": "/images/certificate/modal/hep.png",
+          "content": "<div style=\"font-family: Arial, sans-serif; color: #f9fafb; background-color: #1f2937; padding: 20px; border-radius: 8px;\"><h2 style=\"font-weight: 700; font-size: 1.75rem; margin-bottom: 12px; color: #e0e7ff;\">HEP Micro-Certification–Leadership & Collective Performance</h2><p style=\"font-size: 1rem; margin-bottom: 16px;\"><strong>Awarded to:</strong> Hai Nam HOANG<br/><strong>Date of issue:</strong> March 11, 2025</p><h3 style=\"font-weight: 700; font-size: 1.25rem; margin-top: 24px; margin-bottom: 8px; color: #c7d2fe;\">Results</h3><p style=\"margin-bottom: 20px; font-size: 1rem; line-height: 1.5;\">Demonstrated the ability to exercise leadership that enhances collective development and contributes to organizational performance.</p><h3 style=\"font-weight: 700; font-size: 1.25rem; margin-top: 24px; margin-bottom: 8px; color: #c7d2fe;\">Skills & Competencies</h3><ul style=\"list-style-type: disc; padding-left: 1.75rem; margin-bottom: 20px; font-size: 1rem; line-height: 1.6;\"><li>Select an appropriate leadership style based on individual characteristics, value systems, and situational contexts.</li><li>Build collective projects by combining personal human skills with those of the group.</li><li>Share expertise effectively to support collective success.</li></ul><h3 style=\"font-weight: 700; font-size: 1.25rem; margin-top: 24px; margin-bottom: 8px; color: #c7d2fe;\">Evaluation Breakdown</h3><ul style=\"list-style-type: disc; padding-left: 1.75rem; margin-bottom: 20px; font-size: 1rem; line-height: 1.6;\"><li><strong>15% – Dynamic Spiral:</strong> Participation in in-person workshop activities, quality of work produced, and ability to adapt leadership style to different people and contexts.</li><li><strong>40% – Collective Project:</strong> Quality of the live pitch, strength of content presented, demonstration of autonomous team functioning, and successful integration of HEP competencies.</li><li><strong>30% – Ability to Share Knowledge:</strong> Workshop participation, depth of self-analysis regarding personal success strategy (especially in terms of knowledge transfer), and analysis of another individual’s success strategy.</li><li><strong>15% – Attendance:</strong> Completion of 100% of the module’s e-learning content.</li></ul><p style=\"font-style: italic; font-size: 0.9rem; color: #a5b4fc; margin-bottom: 20px;\">Note: All evaluations are completed during the in-person workshop. No additional work is required outside of the training.</p><p style=\"font-weight: 700; font-size: 1rem; color: #e0e7ff;\">Status: ✅ Competency Acquired</p></div>"
+        }
+      }
+    },
+    "certificate_content_button": "Close",
+
+    "contact": "CONTACT ME",
+    "sub_contact": "Let collaborate on tailored, sustainable solution",
+    "contact_name": "Name",
+    "contact_email":"Email adress",
+    "contact_subject":"Subject",
+    "contact_subject_placeholder": "Work Proposal for [Project/Task Name]",
+    "contact_message": "Message",
+    "contact_message_placeholder": "Type here",
+    "contact_button": "Send Message",
+    "contact_button_sending": "Sending...",
+    "contact_warning": {
+      "name": "Name is Required",
+      "email_1": "Invalid email",
+      "email_2": "Email is Required",
+      "subject": "Subject is Required",
+      "message": "Message is Required"
+    },
+
+    "footer": "2025 © All rights reserved.",
+
+    "description": "Ceci est un site multilingue."
+  }

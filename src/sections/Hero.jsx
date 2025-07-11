@@ -2,7 +2,12 @@ import React from 'react'
 import GradientSpheres from '../components/GradientSpheres'
 import { HeroExperience } from '../components/HeroExperience'
 
+import { useTranslation } from 'react-i18next';
+
 const Hero = () => {
+
+  const { t } = useTranslation();
+
   return (
     <section id="home" className='h-dvh relative text-white-50 px-5 md:p-0'>
         
@@ -10,21 +15,21 @@ const Hero = () => {
         <div className='w-full h-full flex-center'>
           <div className='container relative w-full h-full'> 
               <div className="md:mt-40 mt-20">
-                <p className="font-medium md:text-2xl text-base">👋 Hey, I'am here</p>
+                <p className="font-medium md:text-2xl text-base">{t('welcome')}</p>
                 <h1 className="font-bold md:text-9xl text-5xl">HOANG Hai Nam</h1>
-                <h1 className="font-bold md:text-9xl text-5xl">CREATIVE</h1>
+                <h1 className="font-bold md:text-9xl text-5xl">{t('creative')}</h1>
               </div>
 
               <div className="absolute w-full z-30 bottom-20 right-0">
                 <div className="flex justify-between items-end">
                   <div className='flex flex-col items-center md:gap-5 gap-1'>
-                    <p className='md:text-base text-xs'>Explore</p>
+                    <p className='md:text-base text-xs'>{t('explore')}</p>
                     <img src="images/arrowdown.svg" alt="arrowdown" className="size-7 animate-bounce" />
                   </div>
 
                   <div className='flex flex-col items-end'>
                     <img src="images/shape.svg" alt="shape" className="" />
-                    <h1 className="font-bold md:text-9xl text-5xl">DEVELOPPEUR</h1>
+                    <h1 className="font-bold md:text-9xl text-5xl">{t('developer')}</h1>
                   </div>
                 </div>
               </div>

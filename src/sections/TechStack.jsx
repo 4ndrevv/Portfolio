@@ -4,6 +4,9 @@ import { iconsList } from '../constants'
 import TechIcon from '../components/TechIcon'
 import { cn } from "../lib/utils";
 
+import { useTranslation } from 'react-i18next';
+import { Trans } from 'react-i18next';
+
 const skills = [
   // Frontend
   { name: "HTML", level: 80, category: "frontend", image: "/images/html.svg" },
@@ -71,6 +74,8 @@ const categories = [
 
 const TechStack = () => {
 
+  const { t } = useTranslation();
+
   const [activeCategory, setActiveCategory] = useState("all");
 
   const filteredSkills = skills.filter(
@@ -106,9 +111,9 @@ const TechStack = () => {
         <div className="">
           <div className="container mx-auto md:p-0 px-5">
             <TitleHeader 
-              title="TECH STACK" 
+              title={t('techstack')} 
               number="03"
-              text="My Go-To Tools for Crafting Solutions"
+              text={t('sub_techstack')} 
             />
           </div>
           <div className="md:mt-20 mt-10 relative">
@@ -141,7 +146,7 @@ const TechStack = () => {
                   : "bg-secondary/70 text-forefround hover:bd-secondary"
               )}
             >
-              {category}
+              {t(`categories.${category}`)}
             </button>
           ))}
         </div>
