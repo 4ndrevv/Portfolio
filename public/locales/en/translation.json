@@ -99,6 +99,10 @@
       "react_question": {
         "title": "Interactive Quiz App",
         "desc": "This React-based application allows users to take multiple-choice quizzes on various topics. After completing a quiz, the app automatically calculates and displays the user's score, providing instant feedback. It’s a dynamic and user-friendly way to learn, test knowledge, and track progress."
+      },
+      "portfolio": {
+        "title": "3D Developer Portfolio",
+        "desc": "An eye-catching personal portfolio built with Three.js, React, TailwindCSS, and GSAP, featuring smooth 3D animations, a modern UI, and an engaging user experience."
       }
     },
 

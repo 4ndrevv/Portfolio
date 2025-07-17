@@ -190,6 +190,12 @@ const navItems = [
       img: "/images/project/react_question.png",
       link: "/",
     },
+    {
+      id: 3,
+      key: "portfolio",
+      img: "/images/project/portfolio.png",
+      link: "/",
+    },
   ];
   
   const testimonials = [

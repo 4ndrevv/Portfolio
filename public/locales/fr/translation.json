@@ -97,7 +97,11 @@
       "react_question": {
         "title": "Application de Quiz Interactive",
         "desc": "Cette application développée en React permet aux utilisateurs de répondre à des quiz à choix multiples sur divers sujets. Une fois le quiz terminé, l'application calcule automatiquement le score et affiche les résultats en temps réel. C’est un outil dynamique et convivial pour apprendre, s’évaluer et suivre ses progrès."
-      }
+      },
+      "portfolio": {
+        "title": "Portfolio Développeur 3D",
+        "desc": "Un portfolio personnel captivant réalisé avec Three.js, React, TailwindCSS et GSAP, offrant des animations 3D fluides, une interface moderne et une expérience utilisateur immersive."
+      }      
     },
 
     "certificate": "CERTIFICATS",
