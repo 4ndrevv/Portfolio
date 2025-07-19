@@ -35,7 +35,7 @@ pipeline {
                         ssh -o StrictHostKeyChecking=no -i \$KEYFILE ${EC2_USER}@${EC2_HOST} '
                             docker stop ${CONTAINER_NAME} || true &&
                             docker rm ${CONTAINER_NAME} || true &&
-                            bunzip2 -f /home/${EC2_USER}/${IMAGE_NAME}.tar.bz2 &&
+                            tar -xjvf /home/${EC2_USER}/${IMAGE_NAME}.tar.bz2 -O > /home/${EC2_USER}/${IMAGE_NAME}.tar &&
                             docker load -i /home/${EC2_USER}/${IMAGE_NAME}.tar &&
                             docker run -d -p ${PORT}:80 --name ${CONTAINER_NAME} ${IMAGE_NAME}
                         '
