@@ -33,9 +33,10 @@ pipeline {
                     sh """
                         scp -o StrictHostKeyChecking=no -i \$KEYFILE ${IMAGE_NAME}.tar.bz2 ${EC2_USER}@${EC2_HOST}:/home/${EC2_USER}/
                         ssh -o StrictHostKeyChecking=no -i \$KEYFILE ${EC2_USER}@${EC2_HOST} '
+                            sudo apt update && sudo apt install -y bzip2 &&
                             docker stop ${CONTAINER_NAME} || true &&
                             docker rm ${CONTAINER_NAME} || true &&
-                            tar -xjvf /home/${EC2_USER}/${IMAGE_NAME}.tar.bz2 -O > /home/${EC2_USER}/${IMAGE_NAME}.tar &&
+                            bunzip2 -k /home/${EC2_USER}/${IMAGE_NAME}.tar.bz2 &&
                             docker load -i /home/${EC2_USER}/${IMAGE_NAME}.tar &&
                             docker run -d -p ${PORT}:80 --name ${CONTAINER_NAME} ${IMAGE_NAME}
                         '
