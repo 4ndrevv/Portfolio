@@ -7,6 +7,8 @@ pipeline {
         PORT = "8081"
         GIT_REPO = "https://github.com/4ndrevv/Portfolio.git"
         BRANCH = "main"
+        EC2_USER = "ec2-user"              // SSH username trên EC2
+        EC2_HOST = "15.188.195.103"        // Public IPv4 của EC2
     }
 
     stages {
@@ -16,20 +18,31 @@ pipeline {
             }
         }
 
-        stage('Build Docker Image') {
+        stage('Build Docker Image Locally') {
             steps {
-                script {
-                    sh "docker build -t ${IMAGE_NAME} ."
-                }
+                sh """
+                    docker build -t ${IMAGE_NAME} .
+                    docker save ${IMAGE_NAME} | bzip2 > ${IMAGE_NAME}.tar.bz2
+                """
             }
         }
 
-        stage('Deploy Container') {
+        stage('Transfer and Deploy to EC2') {
             steps {
-                script {
-                    sh "docker stop ${CONTAINER_NAME} || true"
-                    sh "docker rm ${CONTAINER_NAME} || true"
-                    sh "docker run -d -p ${PORT}:80 --name ${CONTAINER_NAME} ${IMAGE_NAME}"
+                withCredentials([sshUserPrivateKey(credentialsId: 'ec2-ssh-key', keyFileVariable: 'KEYFILE')]) {
+                    sh """
+                        # Copy image nén lên EC2
+                        scp -i \$KEYFILE ${IMAGE_NAME}.tar.bz2 ${EC2_USER}@${EC2_HOST}:/home/${EC2_USER}/
+
+                        # SSH vào EC2, dừng container cũ, xóa, giải nén, load và chạy container mới
+                        ssh -i \$KEYFILE ${EC2_USER}@${EC2_HOST} '
+                            docker stop ${CONTAINER_NAME} || true &&
+                            docker rm ${CONTAINER_NAME} || true &&
+                            bunzip2 -f /home/${EC2_USER}/${IMAGE_NAME}.tar.bz2 &&
+                            docker load -i /home/${EC2_USER}/${IMAGE_NAME}.tar &&
+                            docker run -d -p ${PORT}:80 --name ${CONTAINER_NAME} ${IMAGE_NAME}
+                        '
+                    """
                 }
             }
         }
