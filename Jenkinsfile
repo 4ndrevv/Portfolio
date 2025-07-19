@@ -36,7 +36,7 @@ pipeline {
                             sudo apt update && sudo apt install -y bzip2 &&
                             docker stop ${CONTAINER_NAME} || true &&
                             docker rm ${CONTAINER_NAME} || true &&
-                            bunzip2 -k /home/${EC2_USER}/${IMAGE_NAME}.tar.bz2 &&
+                            bunzip2 -kf /home/${EC2_USER}/${IMAGE_NAME}.tar.bz2 &&
                             docker load -i /home/${EC2_USER}/${IMAGE_NAME}.tar &&
                             docker run -d -p ${PORT}:80 --name ${CONTAINER_NAME} ${IMAGE_NAME}
                         '
