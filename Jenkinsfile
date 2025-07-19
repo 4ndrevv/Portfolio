@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE_NAME = "react-vite-nginx"
         CONTAINER_NAME = "react-vite-app"
-        PORT = "8081"
+        PORT = "8080"
         GIT_REPO = "https://github.com/4ndrevv/Portfolio.git"
         BRANCH = "main"
         EC2_USER = "ubuntu"              // SSH username trên EC2
