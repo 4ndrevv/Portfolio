@@ -7,7 +7,7 @@ pipeline {
         PORT = "8081"
         GIT_REPO = "https://github.com/4ndrevv/Portfolio.git"
         BRANCH = "main"
-        EC2_USER = "ec2-user"              // SSH username trên EC2
+        EC2_USER = "ubuntu"              // SSH username trên EC2
         EC2_HOST = "15.188.195.103"        // Public IPv4 của EC2
     }
 
