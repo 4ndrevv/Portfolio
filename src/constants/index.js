@@ -196,6 +196,12 @@ const navItems = [
       img: "/images/project/portfolio.png",
       link: "/",
     },
+    {
+      id: 4,
+      key: "jenkin_docker",
+      img: "/images/project/jenkin_docker.png",
+      link: "/",
+    },
   ];
   
   const testimonials = [

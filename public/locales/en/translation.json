@@ -94,7 +94,7 @@
     "project_content": {
       "martin": {
         "title": "Martin NFC",
-        "desc": "Martin NFC is a web and mobile application that allows pet owners to store essential information about their pets using an NFC tag. When the tag is scanned with an NFC-compatible device, it opens a dedicated web page displaying the pet’s profile, including name, owner contact info, address, and medical details. The system replaces traditional pet ID tags with a smarter, connected solution."
+        "desc": "Martin NFC est une application web et mobile fullstack permettant l’identification intelligente des animaux grâce à des colliers équipés de puces NFC. Le scan d’une puce via un appareil compatible ouvre une page web affichant les informations essentielles de l’animal : nom, contacts du propriétaire, adresse et données médicales. \n\nLe backend est développé en PHP avec Symfony et Doctrine ORM, tandis que le frontend utilise HTML, CSS, JavaScript et Bootstrap pour une interface responsive. Des API REST assurent la communication entre les deux couches, avec une base de données MySQL. L’ensemble de l’application est containerisé avec Docker pour faciliter le déploiement. \n\nLe projet suit une méthodologie agile, avec gestion de version via Git et suivi des tâches avec Trello. Cette réalisation illustre la maîtrise du cycle complet de développement, de la conception à la mise en production d’une solution sécurisée et scalable."
       },
       "react_question": {
         "title": "Interactive Quiz App",
@@ -103,7 +103,11 @@
       "portfolio": {
         "title": "3D Developer Portfolio",
         "desc": "An eye-catching personal portfolio built with Three.js, React, TailwindCSS, and GSAP, featuring smooth 3D animations, a modern UI, and an engaging user experience."
-      }
+      },
+      "jenkin_docker": {
+        "title": "CI/CD Pipeline with Jenkins and Docker for Automatic Deployment on AWS EC2",
+        "desc": "Set up a complete CI/CD pipeline using Jenkins to detect changes on GitHub, pull the latest code, build a Docker image, and automatically deploy the web application on an Amazon EC2 VPS. This project highlights my skills in automation workflows, Docker containerization, and cloud deployment on AWS."
+      }      
     },
 
     "certificate": "CERTIFICATES",

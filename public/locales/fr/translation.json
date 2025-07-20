@@ -92,7 +92,7 @@
     "project_content": {
       "martin": {
         "title": "Martin NFC",
-        "desc": "Martin NFC est une application web et mobile permettant aux propriétaires d’animaux d’enregistrer des informations essentielles sur leur animal grâce à une puce NFC. Lorsqu’un appareil compatible NFC scanne le tag, une page web dédiée s’ouvre et affiche le profil de l’animal : nom, coordonnées du propriétaire, adresse et informations médicales. Ce système remplace les médaillons traditionnels par une solution connectée et intelligente."
+        "desc": "Martin NFC est une application web et mobile fullstack permettant l’identification intelligente des animaux grâce à des colliers équipés de puces NFC. Le scan d’une puce via un appareil compatible ouvre une page web affichant les informations essentielles de l’animal : nom, contacts du propriétaire, adresse et données médicales.\n\nLe backend est développé en PHP avec Symfony et Doctrine ORM, tandis que le frontend utilise HTML, CSS, JavaScript et Bootstrap pour une interface responsive. Des API REST assurent la communication entre les deux couches, avec une base de données MySQL. L’ensemble de l’application est containerisé avec Docker pour faciliter le déploiement.\n\nLe projet est conduit selon une méthodologie agile, avec gestion de version via Git et suivi des tâches avec Trello. Cette réalisation illustre la maîtrise du cycle complet de développement, de la conception à la mise en production d’une solution sécurisée et scalable."
       },
       "react_question": {
         "title": "Application de Quiz Interactive",
@@ -101,7 +101,11 @@
       "portfolio": {
         "title": "Portfolio Développeur 3D",
         "desc": "Un portfolio personnel captivant réalisé avec Three.js, React, TailwindCSS et GSAP, offrant des animations 3D fluides, une interface moderne et une expérience utilisateur immersive."
-      }      
+      },
+      "jenkin_docker": {
+        "title": "CI/CD avec Jenkins et Docker pour déploiement automatique sur AWS EC2",
+        "desc": "Mise en place d’un pipeline CI/CD avec Jenkins permettant de détecter les changements sur GitHub, cloner le dépôt, construire une image Docker, puis déployer automatiquement l’application web sur un VPS Amazon EC2. Ce projet illustre ma maîtrise des workflows d’automatisation, des conteneurs Docker, et du déploiement cloud sur AWS."
+      }            
     },
 
     "certificate": "CERTIFICATS",
