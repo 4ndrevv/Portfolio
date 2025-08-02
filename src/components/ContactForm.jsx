@@ -54,7 +54,7 @@ export const ContactForm = () => {
         } finally {
             setLoading(false)
             reset(initialValues);
-            alert("Sned message successfully");
+            alert("Send message successfully");
         }
     };
 
