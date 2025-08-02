@@ -40,14 +40,19 @@
     "education_experience": "ÉDUCATION ET EXPÉRIENCE",
     "sub_education_experience": "Façonné par des années d'apprentissage et de formation",
     "timeline": {
-      "martinsellier":{
+      "martinsellier": {
         "title": "Septembre 2022 - Septembre 2024",
-        "cardTitle": "Group Martin Sellier (Rouvignies)",
-        "cardSubtitle": "Alternance – Développeur Fullstack Web et Mobile",
+        "cardTitle": "Groupe Martin Sellier (Rouvignies)",
+        "cardSubtitle": "Alternance – Développeur Fullstack Web & Mobile et Technicien Support IT",
+      
         "content_title_1": "Martin NFC - Développement d’application Web",
-        "content_1": "<0>Développement avec <1>PHP/Symfony</1> (Twig, Doctrine ORM) pour enregistrer les informations des animaux via colliers NFC.</0><0>Interfaces responsives respectant les maquettes Figma avec <1>HTML, CSS, JS, Bootstrap</1>.</0><0>Création et intégration d’<1>API RESTful</1> et gestion de données via <1>MySQL</1>.</0><0>Utilisation de <1>Docker</1> pour la conteneurisation et gestion des environnements.</0><0>Respect des bonnes pratiques (<2>SOLID</2>, Clean Code) et versionnage avec <1>GitFlow</1>.</0><0>Rédaction de la documentation technique et des spécifications fonctionnelles.</0>",
-        "content_title_2":"Martin Coach - Développement d’application iOS",
-        "content_2": "<0>Développement d'une app <1>iOS avec Swift et Xcode</1> pour suivre la santé des animaux.</0><0>Développement backend et <1>API RESTful</1> avec <1>Node.js</1> pour performance optimale.</0>"
+        "content_1": "<0>Développement des interfaces avec <1>PHP/Symfony</1> (Twig, Doctrine ORM), en respectant les maquettes Figma avec <1>HTML, CSS, JavaScript, Bootstrap</1>.</0><0>Création et intégration d’<1>APIs REST</1> avec <1>PHP/Symfony</1> et <1>Node.js (Express)</1>.</0><0>Modélisation UML, conception de la base de données <1>MySQL</1>, conteneurisation avec <1>Docker</1>.</0><0>Déploiement automatisé avec <1>Jenkins</1> et intégration continue (<1>CI/CD</1>).</0><0>Application des bonnes pratiques de développement (<2>principes SOLID</2>, Clean Code), gestion de versions avec <1>Git</1> et workflow <1>GitFlow</1>.</0><0>Rédaction de la documentation technique, des spécifications fonctionnelles et des tests unitaires avec <1>PHPUnit</1>.</0>",
+      
+        "content_title_2": "Martin Coach - Développement d’application iOS",
+        "content_2": "<0>Développement d’une application mobile avec <1>Swift et Xcode</1> pour le suivi de l’activité et la santé des animaux.</0><0>Développement du backend et des <1>APIs REST</1> avec <1>Node.js</1>, définition de l’architecture technique.</0>",
+      
+        "content_title_3": "Technicien Support IT – Infrastructure & Projets",
+        "content_3": "<0>Onboarding IT : préparation et configuration des postes <1>Windows/macOS</1>, création de comptes <1>Active Directory</1> et messagerie, affectation des droits, accompagnement des nouveaux arrivants.</0><0>Gestion du parc informatique et mobile : supervision des appareils iOS via <1>JAMF</1>, déploiement de profils automatisés, suivi des équipements.</0><0>Administration Active Directory : création des comptes utilisateurs, gestion des droits d’accès et des licences.</0><0>Support utilisateurs <1>niveau 1 et 2</1> sur site et à distance (<1>TeamViewer</1>) : diagnostic et résolution des incidents techniques.</0><0>Participation à des projets IT : migration vers <1>SAP S/4HANA</1>, mise à niveau du réseau local (installation de routeurs, amélioration du Wi-Fi), migration des sauvegardes internes vers une solution Cloud (<1>OVH</1>).</0><0>Rédaction de la documentation technique et de guides utilisateurs.</0>"
       },
       "epsi": {
         "title": "Septembre 2022 - Septembre 2024",
@@ -92,7 +97,7 @@
     "project_content": {
       "martin": {
         "title": "Martin NFC",
-        "desc": "Martin NFC est une application web et mobile fullstack permettant l’identification intelligente des animaux grâce à des colliers équipés de puces NFC. Le scan d’une puce via un appareil compatible ouvre une page web affichant les informations essentielles de l’animal : nom, contacts du propriétaire, adresse et données médicales.\n\nLe backend est développé en PHP avec Symfony et Doctrine ORM, tandis que le frontend utilise HTML, CSS, JavaScript et Bootstrap pour une interface responsive. Des API REST assurent la communication entre les deux couches, avec une base de données MySQL. L’ensemble de l’application est containerisé avec Docker pour faciliter le déploiement.\n\nLe projet est conduit selon une méthodologie agile, avec gestion de version via Git et suivi des tâches avec Trello. Cette réalisation illustre la maîtrise du cycle complet de développement, de la conception à la mise en production d’une solution sécurisée et scalable."
+        "desc": "Martin NFC est une application web et mobile permettant l’identification des animaux via des colliers équipés de puces NFC. Le scan ouvre une page affichant les informations essentielles de l’animal (nom, contacts, adresse, données médicales).\n\nLe backend est développé en PHP/Symfony avec Doctrine ORM, le frontend en HTML, CSS, JS et Bootstrap. Des API REST connectent à une base MySQL, le tout containerisé avec Docker.\n\nLe projet est mené en agile avec Git et Trello, illustrant la maîtrise du cycle complet de développement sécurisé et scalable."
       },
       "react_question": {
         "title": "Application de Quiz Interactive",

@@ -41,15 +41,20 @@
     "education_experience": "EDUCATION & EXPERIENCE",
     "sub_education_experience": "Shaped by years of learning and training",
     "timeline": {
-        "martinsellier": {
-          "title": "September 2022 - September 2024",
-          "cardTitle": "Martin Sellier Group (Rouvignies)",
-          "cardSubtitle": "Apprenticeship – Fullstack Web and Mobile Developer",
-          "content_title_1": "Martin NFC - Web Application Development",
-          "content_1": "<0>Development using <1>PHP/Symfony</1> (Twig, Doctrine ORM) to record animal information via NFC collars.</0><0>Responsive interfaces based on Figma mockups with <1>HTML, CSS, JS, Bootstrap</1>.</0><0>Creation and integration of <1>RESTful APIs</1> and data management via <1>MySQL</1>.</0><0>Using <1>Docker</1> for containerization and environment management.</0><0>Following best practices (<2>SOLID</2>, Clean Code) and version control with <1>GitFlow</1>.</0><0>Writing technical documentation and functional specifications.</0>",
-          "content_title_2": "Martin Coach - iOS Application Development",
-          "content_2": "<0>Development of an <1>iOS app with Swift and Xcode</1> to monitor animal health.</0><0>Backend development and <1>RESTful API</1> with <1>Node.js</1> for optimal performance.</0>"
-        },
+      "martinsellier": {
+        "title": "September 2022 - September 2024",
+        "cardTitle": "Martin Sellier Group (Rouvignies)",
+        "cardSubtitle": "Apprenticeship – Fullstack Web & Mobile Developer and IT Support Technician",
+      
+        "content_title_1": "Martin NFC – Web Application Development",
+        "content_1": "<0>Developed user interfaces using <1>PHP/Symfony</1> (Twig, Doctrine ORM), following Figma designs with <1>HTML, CSS, JavaScript, Bootstrap</1>.</0><0>Created and integrated <1>REST APIs</1> using both <1>PHP/Symfony</1> and <1>Node.js (Express)</1>.</0><0>Designed UML diagrams and database schemas with <1>MySQL</1>; containerized the application with <1>Docker</1>.</0><0>Automated deployment using <1>Jenkins</1> and implemented continuous integration (<1>CI/CD</1>).</0><0>Applied best development practices (<2>SOLID principles</2>, Clean Code), version control with <1>Git</1> and <1>GitFlow</1>.</0><0>Wrote technical documentation, functional specifications, and unit tests using <1>PHPUnit</1>.</0>",
+      
+        "content_title_2": "Martin Coach – iOS Application Development",
+        "content_2": "<0>Developed a mobile app using <1>Swift and Xcode</1> to monitor animal health and activities.</0><0>Built backend services and <1>REST APIs</1> using <1>Node.js</1>, and contributed to technical architecture planning.</0>",
+      
+        "content_title_3": "IT Support Technician – Infrastructure & Projects",
+        "content_3": "<0>IT onboarding: prepared and configured <1>Windows/macOS</1> workstations, created <1>Active Directory</1> and email accounts, assigned permissions, and supported new hires.</0><0>Managed IT and mobile assets: supervised iOS devices via <1>JAMF</1>, deployed automated configuration profiles, and tracked equipment usage.</0><0>Administered Active Directory: created user accounts, managed access rights and software licenses.</0><0>Provided <1>Level 1 & 2</1> user support on-site and remotely (<1>TeamViewer</1>): diagnosed and resolved technical issues.</0><0>Participated in IT projects: migration to <1>SAP S/4HANA</1>, upgraded local network (router installation, Wi-Fi improvement), and migrated backup systems to <1>OVH Cloud</1>.</0><0>Authored technical documentation and user guides.</0>"
+      },
         "epsi": {
           "title": "September 2022 - September 2024",
           "cardTitle": "EPSI School of Computer Engineering - Lille",
@@ -94,7 +99,7 @@
     "project_content": {
       "martin": {
         "title": "Martin NFC",
-        "desc": "Martin NFC est une application web et mobile fullstack permettant l’identification intelligente des animaux grâce à des colliers équipés de puces NFC. Le scan d’une puce via un appareil compatible ouvre une page web affichant les informations essentielles de l’animal : nom, contacts du propriétaire, adresse et données médicales. \n\nLe backend est développé en PHP avec Symfony et Doctrine ORM, tandis que le frontend utilise HTML, CSS, JavaScript et Bootstrap pour une interface responsive. Des API REST assurent la communication entre les deux couches, avec une base de données MySQL. L’ensemble de l’application est containerisé avec Docker pour faciliter le déploiement. \n\nLe projet suit une méthodologie agile, avec gestion de version via Git et suivi des tâches avec Trello. Cette réalisation illustre la maîtrise du cycle complet de développement, de la conception à la mise en production d’une solution sécurisée et scalable."
+        "desc": "Martin NFC is a fullstack web and mobile application for smart pet identification using NFC-enabled collars. Scanning a tag opens a webpage showing key animal info (name, owner contact, address, medical data).\n\nThe backend is built with PHP/Symfony and Doctrine ORM, while the frontend uses HTML, CSS, JS, and Bootstrap. REST APIs connect to a MySQL database, and the app is containerized with Docker.\n\nThe project follows an Agile methodology with Git for version control and Trello for task management, demonstrating end-to-end mastery of secure and scalable software development."
       },
       "react_question": {
         "title": "Interactive Quiz App",

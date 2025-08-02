@@ -33,29 +33,39 @@ export const Education = () => {
           timelineContent: (
             <div className="p-4 space-y-4 text-sm ">
                 <div>
-                  <h3 className="text-lg font-semibold text-blue-600">{t("timeline.martinsellier.content_title_1")}</h3>
-                  <ul className="list-disc list-inside space-y-1 mt-2">
-                    <Trans
-                      i18nKey="timeline.martinsellier.content_1"
-                      components={[
-                        <li key="li" />,                     // <0>
-                        <strong key="strong" />,             // <1>
-                        <em key="em" />                      // <2>
-                      ]}
-                    />
-                  </ul>
-                  </div>
-                <div>
-                    <h3 className="text-lg font-semibold text-green-600">{t('timeline.martinsellier.content_title_2')}</h3>
-                    <ul className="list-disc list-inside space-y-1 mt-2">
-                    <Trans
-                      i18nKey="timeline.martinsellier.content_2"
-                      components={[
-                        <li key="li" />,
-                        <strong key="strong" />
-                      ]}
-                    />
-                    </ul>
+                <h3 className="text-lg font-semibold text-blue-600">{t("timeline.martinsellier.content_title_1")}</h3>
+                <ul className="list-disc list-inside space-y-1 mt-2">
+                  <Trans
+                    i18nKey="timeline.martinsellier.content_1"
+                    components={[
+                      <li key="li" />,
+                      <strong key="strong" />,
+                      <em key="em" />
+                    ]}
+                  />
+                </ul>
+
+                <h3 className="text-lg font-semibold text-blue-600">{t("timeline.martinsellier.content_title_2")}</h3>
+                <ul className="list-disc list-inside space-y-1 mt-2">
+                  <Trans
+                    i18nKey="timeline.martinsellier.content_2"
+                    components={[
+                      <li key="li" />,
+                      <strong key="strong" />
+                    ]}
+                  />
+                </ul>
+
+                <h3 className="text-lg font-semibold text-blue-600">{t("timeline.martinsellier.content_title_3")}</h3>
+                <ul className="list-disc list-inside space-y-1 mt-2">
+                  <Trans
+                    i18nKey="timeline.martinsellier.content_3"
+                    components={[
+                      <li key="li" />,
+                      <strong key="strong" />
+                    ]}
+                  />
+                </ul>
                 </div>
             </div>
     
