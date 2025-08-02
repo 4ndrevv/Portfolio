@@ -44,7 +44,6 @@ export const Education = () => {
                     ]}
                   />
                 </ul>
-
                 <h3 className="text-lg font-semibold text-blue-600">{t("timeline.martinsellier.content_title_2")}</h3>
                 <ul className="list-disc list-inside space-y-1 mt-2">
                   <Trans
