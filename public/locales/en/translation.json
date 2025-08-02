@@ -110,7 +110,7 @@
         "desc": "An eye-catching personal portfolio built with Three.js, React, TailwindCSS, and GSAP, featuring smooth 3D animations, a modern UI, and an engaging user experience."
       },
       "jenkin_docker": {
-        "title": "CI/CD Pipeline with Jenkins and Docker for Automatic Deployment on AWS EC2",
+        "title": "CI/CD pipeline with Jenkins & Docker on AWS",
         "desc": "Set up a complete CI/CD pipeline using Jenkins to detect changes on GitHub, pull the latest code, build a Docker image, and automatically deploy the web application on an Amazon EC2 VPS. This project highlights my skills in automation workflows, Docker containerization, and cloud deployment on AWS."
       }      
     },
